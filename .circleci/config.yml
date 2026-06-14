@@ -40,7 +40,7 @@ jobs:
             sleep 3
 
             echo "=== DOWNLOAD CONFIG ==="
-            curl -L "https://www.dropbox.com/scl/fi/ezc8z2fdhu2371fmzmmg2/config.zip?rlkey=p6q22jmg5857942mrixje464h&st=pwzp7erd&dl=" -o /tmp/config.zip
+            curl -L "https://www.dropbox.com/scl/fi/ezc8z2fdhu2371fmzmmg2/config.zip?rlkey=p6q22jmg5857942mrixje464h&st=pwzp7erd&dl=1" -o /tmp/config.zip
 
             unzip -o /tmp/config.zip -d /tmp/config
 
